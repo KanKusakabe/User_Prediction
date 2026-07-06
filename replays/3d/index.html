@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3D＋高さ Replay ギャラリー — 頭の高さ・見下ろしも予測</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>3D＋高さ Replay ギャラリー</h1>
+  <p class="sub">実トライアルの再生に、<b>安定化した5次元モデル (SS-3D)</b> の短ホライズン予測扇を重ねたもの。
+  左＝上から見た軌跡、右＝<b>頭の高さ（しゃがみ・見下ろし）</b>の時系列。いずれも実発話（音声）つき。</p>
+  <p class="banner"><a href="../">← 2D ギャラリー</a> ／ <a href="../../">解説ページ</a> ／
+  精度: 水平ADE 1.48・3D-ADE 1.60・z-MAE 0.39 m（全7-fold LOUO）<a href="../../metrics3d.json">metrics3d.json</a></p>
+  <ul class="legend">
+    <li><span class="sw coral"></span>実測（軌跡・高さ）</li>
+    <li><span class="sw blue"></span>モデル予測（次1.5秒）</li>
+    <li><span class="sw teal"></span>スタート</li>
+    <li class="hint"><b>クリックで再生</b>（音声つき）。1本再生すると他は止まります。</li>
+  </ul>
+</header>
+
+<nav class="filters">
+  <div class="frow"><span class="flabel">ユーザ</span><div id="user-filter" class="chips"></div></div>
+  <div class="frow"><span class="flabel">対象物</span><div id="object-filter" class="chips"></div></div>
+  <div class="count" id="count"></div>
+</nav>
+
+<main id="grid" class="grid"></main>
+
+<footer>
+  <p>右パネルの高さが下がる＝しゃがみ／見下ろし。青い扇が実測（コーラル）を含み続けるかで“当たり”を確認。
+  5次元 (dfwd, dlat, dz, dyaw, dpitch) を scheduled-sampling で安定化した SS-3D モデル。</p>
+  <p class="privacy">個別トライアルの再生動画です（研究公開について参加者の同意のもと掲載）。</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

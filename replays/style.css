@@ -10,6 +10,8 @@ body{margin:0;background:var(--bg);color:var(--ink);
 header{max-width:1200px;margin:0 auto;padding:28px 20px 8px}
 h1{margin:0 0 4px;font-size:1.6rem;letter-spacing:.01em}
 .sub{margin:0;color:var(--muted);max-width:70ch}
+.banner{margin:10px 0 0;font-size:.92rem}
+.banner a{color:var(--accent);text-decoration:none;font-weight:600}
 .legend{display:flex;flex-wrap:wrap;gap:16px;list-style:none;padding:0;
   margin:14px 0 0;font-size:.86rem;color:var(--muted);align-items:center}
 .legend .hint{color:var(--ink)}

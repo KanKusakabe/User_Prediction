@@ -1,15 +1,12 @@
 // Local replay gallery: poster grid, click-to-play with audio, ONE video at a time.
 // (For browsing / picking clips to drop into Notion — not a published site.)
-let ITEMS = [], fUser = "all", fObject = "all", fMode = "all", activeMedia = null;
+let ITEMS = [], fUser = "all", fObject = "all", activeMedia = null;
 
 const uniq = a => [...new Set(a)].sort((x, y) =>
   typeof x === "number" ? x - y : String(x).localeCompare(y));
 
 fetch("videos.json").then(r => r.json()).then(items => {
-  ITEMS = items.map(i => ({ mode: "2d", ...i }));
-  buildFilter("mode-filter", ["all", "3d", "2d"],
-    v => v === "all" ? "全" : v === "3d" ? "3D（高さ）" : "2D",
-    v => { fMode = v; render(); });
+  ITEMS = items;
   buildFilter("user-filter", ["all", ...uniq(items.map(i => i.user))],
     v => v === "all" ? "全" : "U" + v, v => { fUser = v; render(); });
   buildFilter("object-filter", ["all", ...uniq(items.map(i => i.object))],
@@ -37,7 +34,6 @@ function render() {
   grid.innerHTML = "";
   activeMedia = null;
   const shown = ITEMS.filter(i =>
-    (fMode === "all" || i.mode === fMode) &&
     (fUser === "all" || i.user === fUser) &&
     (fObject === "all" || i.object === fObject));
   document.getElementById("count").textContent = `${shown.length} 本`;
@@ -45,9 +41,7 @@ function render() {
 }
 
 function posterHTML(item) {
-  const mode = item.mode === "3d"
-    ? `<span class="badge mode3d">3D＋高さ</span>` : "";
-  return `<span class="badge">U${item.user}</span>${mode}` +
+  return `<span class="badge">U${item.user}</span>` +
     `<img class="poster" loading="lazy" src="${item.thumb}" alt="${item.object}">` +
     `<button class="play" aria-label="再生">▶</button>`;
 }
