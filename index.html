@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>音声刺激 → ユーザ動作 エクスプローラ</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+</head>
+<body>
+<header>
+  <h1>🔮 音声刺激 → ユーザ動作 エクスプローラ</h1>
+  <p class="sub">視覚障害者ナビの「音声指示」に対して、ユーザ（頭）が実際どう動くか。
+  128 試行のユーザ実験データと、それを学習した Normalizing Flow モデルの成果を、その場で試せます。</p>
+</header>
+
+<main>
+  <section>
+    <h2>① 音声刺激への反応を試す</h2>
+    <p class="lead">刺激を選ぶと、<b>実データ（全 128 試行）</b>でのユーザの反応が表示されます。
+    太線＝平均、帯＝人によるばらつき（25–75%）。</p>
+    <div id="cmd-buttons" class="buttons"></div>
+    <div id="reaction-plot" class="plot"></div>
+    <div id="interpretation" class="callout"></div>
+  </section>
+
+  <section>
+    <h2>② 学習したモデルの性能</h2>
+    <p class="lead">「予測の当てはまり（NLL・低いほど良い）」で、学習モデル（青・橙）が
+    単純な基線（灰）を <b>桁違いに</b> 上回ります。</p>
+    <div id="metrics-plot" class="plot"></div>
+    <p class="note" id="ade-note"></p>
+  </section>
+
+  <section>
+    <h2>③ この結果でできること</h2>
+    <ul>
+      <li><b>できる</b>：単一の音声刺激の効果を確率的に定量化・可視化／次の数秒の予測。</li>
+      <li><b>まだ難しい</b>：遠いゴールまで歩き切る完全なナビ軌跡の再現（前進が過小・データ律速）。</li>
+    </ul>
+    <p class="note">一言でいうと：<b>「音声刺激が動きをどう変えるか」を確率的に理解・可視化するところは達成</b>。
+    「完全ナビ」と「音声の逆算」は、あと一歩＝参加者数（現状 7 名）です。</p>
+  </section>
+</main>
+
+<footer>
+  <p><b>方法（要約）</b>：ROS 2 rosbag からユーザの頭部姿勢と音声イベントを 10 Hz で抽出し、
+  0.1 秒ごとの自己中心の動きの増分を条件付き Normalizing Flow で確率的に予測。評価は Leave-One-User-Out。</p>
+  <p class="privacy">🔒 このページには <b>生の実験データ（rosbag / 軌跡）は含まれていません</b>。
+  表示しているのは集計済みの平均反応曲線と要約指標のみで、そこから元データは復元できません。</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
