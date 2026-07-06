@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Replay ギャラリー — 音声刺激とユーザ動作＋モデル予測</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Replay ギャラリー</h1>
+  <p class="sub">記録した実トライアルの再生に、学習済み Normalizing Flow の
+  <b>短ホライズン予測扇</b>を重ねたもの。実発話（音声）つき。</p>
+  <ul class="legend">
+    <li><span class="sw coral"></span>実軌跡</li>
+    <li><span class="sw blue"></span>モデル予測（次1.5秒）</li>
+    <li><span class="sw teal"></span>スタート</li>
+    <li class="hint"><b>クリックで再生</b>（音声つき）。1本再生すると他は止まります。</li>
+  </ul>
+</header>
+
+<nav class="filters">
+  <div class="frow"><span class="flabel">ユーザ</span><div id="user-filter" class="chips"></div></div>
+  <div class="frow"><span class="flabel">対象物</span><div id="object-filter" class="chips"></div></div>
+  <div class="count" id="count"></div>
+</nav>
+
+<main id="grid" class="grid"></main>
+
+<footer>
+  <p>コーラル＝実測 / 青＝Flow の予測分布（帯が実測を含み続けるかで“当たり”を確認）。
+  全 128 トライアル・モデル予測扇つき。<a href="../">← 解説ページに戻る</a></p>
+  <p class="privacy">個別トライアルの再生動画です（研究公開について参加者の同意のもと掲載）。</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
