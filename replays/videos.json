@@ -1,12 +1,33 @@
 [
  {
+  "name": "replay3d_user7_trial14_slippers_20260629_154105",
+  "file": "videos/replay3d_user7_trial14_slippers_20260629_154105.mp4",
+  "thumb": "thumbs/replay3d_user7_trial14_slippers_20260629_154105.jpg",
+  "user": 7,
+  "trial": "14",
+  "object": "slippers",
+  "dur": 47.1,
+  "mode": "3d"
+ },
+ {
+  "name": "replay3d_user7_trial10_sunglasses_20260629_153425",
+  "file": "videos/replay3d_user7_trial10_sunglasses_20260629_153425.mp4",
+  "thumb": "thumbs/replay3d_user7_trial10_sunglasses_20260629_153425.jpg",
+  "user": 7,
+  "trial": "10",
+  "object": "sunglasses",
+  "dur": 34.6,
+  "mode": "3d"
+ },
+ {
   "name": "replay_user1_trial14_bag_20260623_151754",
   "file": "videos/replay_user1_trial14_bag_20260623_151754.mp4",
   "thumb": "thumbs/replay_user1_trial14_bag_20260623_151754.jpg",
   "user": 1,
   "trial": "14",
   "object": "bag",
-  "dur": 37.4
+  "dur": 37.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user1_trial9_bag_20260623_150358",
@@ -15,7 +36,8 @@
   "user": 1,
   "trial": "9",
   "object": "bag",
-  "dur": 68.4
+  "dur": 68.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user1_trial12_bottle_20260623_151304",
@@ -24,7 +46,8 @@
   "user": 1,
   "trial": "12",
   "object": "bottle",
-  "dur": 74.4
+  "dur": 74.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user1_trial7_bottle_20260623_145810",
@@ -33,7 +56,8 @@
   "user": 1,
   "trial": "7",
   "object": "bottle",
-  "dur": 132.2
+  "dur": 132.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user1_trial17_cap_20260623_152335",
@@ -42,7 +66,8 @@
   "user": 1,
   "trial": "17",
   "object": "cap",
-  "dur": 88.6
+  "dur": 88.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user1_trial3_cap_20260623_144744",
@@ -51,7 +76,8 @@
   "user": 1,
   "trial": "3",
   "object": "cap",
-  "dur": 59.8
+  "dur": 59.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user1_trial15_card_20260623_152029",
@@ -60,7 +86,8 @@
   "user": 1,
   "trial": "15",
   "object": "card",
-  "dur": 40.8
+  "dur": 40.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user1_trial1_card_20260623_144511",
@@ -69,7 +96,8 @@
   "user": 1,
   "trial": "1",
   "object": "card",
-  "dur": 22.0
+  "dur": 22.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user1_trial13_charger_20260623_151530",
@@ -78,7 +106,8 @@
   "user": 1,
   "trial": "13",
   "object": "charger",
-  "dur": 91.4
+  "dur": 91.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user1_trial8_charger_20260623_150134",
@@ -87,7 +116,8 @@
   "user": 1,
   "trial": "8",
   "object": "charger",
-  "dur": 87.6
+  "dur": 87.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user1_trial18_cup_20260623_152612",
@@ -96,7 +126,8 @@
   "user": 1,
   "trial": "18",
   "object": "cup",
-  "dur": 84.4
+  "dur": 84.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user1_trial4_cup_20260623_145017",
@@ -105,7 +136,8 @@
   "user": 1,
   "trial": "4",
   "object": "cup",
-  "dur": 63.0
+  "dur": 63.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user1_trial11_slippers_20260623_150907",
@@ -114,7 +146,8 @@
   "user": 1,
   "trial": "11",
   "object": "slippers",
-  "dur": 101.8
+  "dur": 101.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user1_trial6_slippers_20260623_145425",
@@ -123,7 +156,8 @@
   "user": 1,
   "trial": "6",
   "object": "slippers",
-  "dur": 88.0
+  "dur": 88.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user1_trial16_sunglasses_20260623_152152",
@@ -132,7 +166,8 @@
   "user": 1,
   "trial": "16",
   "object": "sunglasses",
-  "dur": 56.4
+  "dur": 56.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user1_trial2_sunglasses_20260623_144605",
@@ -141,7 +176,8 @@
   "user": 1,
   "trial": "2",
   "object": "sunglasses",
-  "dur": 66.0
+  "dur": 66.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user1_trial10_tissues_20260623_150705",
@@ -150,7 +186,8 @@
   "user": 1,
   "trial": "10",
   "object": "tissues",
-  "dur": 81.6
+  "dur": 81.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user1_trial5_tissues_20260623_145219",
@@ -159,7 +196,8 @@
   "user": 1,
   "trial": "5",
   "object": "tissues",
-  "dur": 71.4
+  "dur": 71.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial13_bag_20260625_111048",
@@ -168,7 +206,8 @@
   "user": 2,
   "trial": "13",
   "object": "bag",
-  "dur": 71.4
+  "dur": 71.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial8_bag_20260625_105823",
@@ -177,7 +216,8 @@
   "user": 2,
   "trial": "8",
   "object": "bag",
-  "dur": 158.0
+  "dur": 158.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial11_bottle_20260625_110608",
@@ -186,7 +226,8 @@
   "user": 2,
   "trial": "11",
   "object": "bottle",
-  "dur": 89.2
+  "dur": 89.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial6_bottle_20260625_105012",
@@ -195,7 +236,8 @@
   "user": 2,
   "trial": "6",
   "object": "bottle",
-  "dur": 141.8
+  "dur": 141.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial16_cap_20260625_111637",
@@ -204,7 +246,8 @@
   "user": 2,
   "trial": "16",
   "object": "cap",
-  "dur": 84.2
+  "dur": 84.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial2_cap_20260625_104206",
@@ -213,7 +256,8 @@
   "user": 2,
   "trial": "2",
   "object": "cap",
-  "dur": 14.2
+  "dur": 14.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial14_card_20260625_111303",
@@ -222,7 +266,8 @@
   "user": 2,
   "trial": "14",
   "object": "card",
-  "dur": 29.0
+  "dur": 29.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial9_card_20260625_110254",
@@ -231,7 +276,8 @@
   "user": 2,
   "trial": "9",
   "object": "card",
-  "dur": 50.8
+  "dur": 50.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial12_charger_20260625_110838",
@@ -240,7 +286,8 @@
   "user": 2,
   "trial": "12",
   "object": "charger",
-  "dur": 78.4
+  "dur": 78.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial7_charger_20260625_105316",
@@ -249,7 +296,8 @@
   "user": 2,
   "trial": "7",
   "object": "charger",
-  "dur": 175.4
+  "dur": 175.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial17_cup_20260625_112256",
@@ -258,7 +306,8 @@
   "user": 2,
   "trial": "17",
   "object": "cup",
-  "dur": 52.0
+  "dur": 52.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial3_cup_20260625_104335",
@@ -267,7 +316,8 @@
   "user": 2,
   "trial": "3",
   "object": "cup",
-  "dur": 55.8
+  "dur": 55.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial10_slippers_20260625_110437",
@@ -276,7 +326,8 @@
   "user": 2,
   "trial": "10",
   "object": "slippers",
-  "dur": 34.6
+  "dur": 34.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial5_slippers_20260625_104825",
@@ -285,7 +336,8 @@
   "user": 2,
   "trial": "5",
   "object": "slippers",
-  "dur": 61.6
+  "dur": 61.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial15_sunglasses_20260625_111406",
@@ -294,7 +346,8 @@
   "user": 2,
   "trial": "15",
   "object": "sunglasses",
-  "dur": 43.8
+  "dur": 43.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial1_sunglasses_20260625_104058",
@@ -303,7 +356,8 @@
   "user": 2,
   "trial": "1",
   "object": "sunglasses",
-  "dur": 31.6
+  "dur": 31.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial18_tissues_20260625_112418",
@@ -312,7 +366,8 @@
   "user": 2,
   "trial": "18",
   "object": "tissues",
-  "dur": 54.8
+  "dur": 54.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user2_trial4_tissues_20260625_104541",
@@ -321,7 +376,8 @@
   "user": 2,
   "trial": "4",
   "object": "tissues",
-  "dur": 72.8
+  "dur": 72.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial12_bag_20260703_110625",
@@ -330,7 +386,8 @@
   "user": 3,
   "trial": "12",
   "object": "bag",
-  "dur": 71.6
+  "dur": 71.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial7_bag_20260703_105334",
@@ -339,7 +396,8 @@
   "user": 3,
   "trial": "7",
   "object": "bag",
-  "dur": 84.4
+  "dur": 84.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial10_bottle_20260703_105935",
@@ -348,7 +406,8 @@
   "user": 3,
   "trial": "10",
   "object": "bottle",
-  "dur": 87.6
+  "dur": 87.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial5_bottle_20260703_104828",
@@ -357,7 +416,8 @@
   "user": 3,
   "trial": "5",
   "object": "bottle",
-  "dur": 139.0
+  "dur": 139.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial15_cap_20260703_111107",
@@ -366,7 +426,8 @@
   "user": 3,
   "trial": "15",
   "object": "cap",
-  "dur": 63.2
+  "dur": 63.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial1_cap_20260703_103951",
@@ -375,7 +436,8 @@
   "user": 3,
   "trial": "1",
   "object": "cap",
-  "dur": 125.2
+  "dur": 125.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial13_card_20260703_110826",
@@ -384,7 +446,8 @@
   "user": 3,
   "trial": "13",
   "object": "card",
-  "dur": 45.2
+  "dur": 45.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial8_card_20260703_105553",
@@ -393,7 +456,8 @@
   "user": 3,
   "trial": "8",
   "object": "card",
-  "dur": 46.4
+  "dur": 46.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial11_charger_20260703_110436",
@@ -402,7 +466,8 @@
   "user": 3,
   "trial": "11",
   "object": "charger",
-  "dur": 71.8
+  "dur": 71.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial6_charger_20260703_105125",
@@ -411,7 +476,8 @@
   "user": 3,
   "trial": "6",
   "object": "charger",
-  "dur": 58.4
+  "dur": 58.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial16_cup_20260703_111248",
@@ -420,7 +486,8 @@
   "user": 3,
   "trial": "16",
   "object": "cup",
-  "dur": 43.2
+  "dur": 43.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial2_cup_20260703_104314",
@@ -429,7 +496,8 @@
   "user": 3,
   "trial": "2",
   "object": "cup",
-  "dur": 40.8
+  "dur": 40.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial18_slippers_20260703_111620",
@@ -438,7 +506,8 @@
   "user": 3,
   "trial": "18",
   "object": "slippers",
-  "dur": 47.2
+  "dur": 47.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial4_slippers_20260703_104659",
@@ -447,7 +516,8 @@
   "user": 3,
   "trial": "4",
   "object": "slippers",
-  "dur": 46.2
+  "dur": 46.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial14_sunglasses_20260703_110942",
@@ -456,7 +526,8 @@
   "user": 3,
   "trial": "14",
   "object": "sunglasses",
-  "dur": 44.6
+  "dur": 44.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial9_sunglasses_20260703_105709",
@@ -465,7 +536,8 @@
   "user": 3,
   "trial": "9",
   "object": "sunglasses",
-  "dur": 79.2
+  "dur": 79.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial17_tissues_20260703_111504",
@@ -474,7 +546,8 @@
   "user": 3,
   "trial": "17",
   "object": "tissues",
-  "dur": 45.2
+  "dur": 45.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user3_trial3_tissues_20260703_104432",
@@ -483,7 +556,8 @@
   "user": 3,
   "trial": "3",
   "object": "tissues",
-  "dur": 82.4
+  "dur": 82.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial11_bag_20260623_173009",
@@ -492,7 +566,8 @@
   "user": 4,
   "trial": "11",
   "object": "bag",
-  "dur": 61.0
+  "dur": 61.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial6_bag_20260623_171716",
@@ -501,7 +576,8 @@
   "user": 4,
   "trial": "6",
   "object": "bag",
-  "dur": 65.2
+  "dur": 65.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial18_bottle_20260623_174129",
@@ -510,7 +586,8 @@
   "user": 4,
   "trial": "18",
   "object": "bottle",
-  "dur": 85.8
+  "dur": 85.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial4_bottle_20260623_171340",
@@ -519,7 +596,8 @@
   "user": 4,
   "trial": "4",
   "object": "bottle",
-  "dur": 77.2
+  "dur": 77.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial14_cap_20260623_173439",
@@ -528,7 +606,8 @@
   "user": 4,
   "trial": "14",
   "object": "cap",
-  "dur": 39.6
+  "dur": 39.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial9_cap_20260623_172203",
@@ -537,7 +616,8 @@
   "user": 4,
   "trial": "9",
   "object": "cap",
-  "dur": 51.4
+  "dur": 51.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial12_card_20260623_173157",
@@ -546,7 +626,8 @@
   "user": 4,
   "trial": "12",
   "object": "card",
-  "dur": 45.6
+  "dur": 45.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial7_card_20260623_171948",
@@ -555,7 +636,8 @@
   "user": 4,
   "trial": "7",
   "object": "card",
-  "dur": 34.0
+  "dur": 34.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial10_charger_20260623_172749",
@@ -564,7 +646,8 @@
   "user": 4,
   "trial": "10",
   "object": "charger",
-  "dur": 98.4
+  "dur": 98.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial5_charger_20260623_171537",
@@ -573,7 +656,8 @@
   "user": 4,
   "trial": "5",
   "object": "charger",
-  "dur": 57.2
+  "dur": 57.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial15_cup_20260623_173632",
@@ -582,7 +666,8 @@
   "user": 4,
   "trial": "15",
   "object": "cup",
-  "dur": 58.6
+  "dur": 58.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial1_cup_20260623_170551",
@@ -591,7 +676,8 @@
   "user": 4,
   "trial": "1",
   "object": "cup",
-  "dur": 58.6
+  "dur": 58.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial17_slippers_20260623_173938",
@@ -600,7 +686,8 @@
   "user": 4,
   "trial": "17",
   "object": "slippers",
-  "dur": 57.2
+  "dur": 57.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial3_slippers_20260623_171013",
@@ -609,7 +696,8 @@
   "user": 4,
   "trial": "3",
   "object": "slippers",
-  "dur": 34.6
+  "dur": 34.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial3_slippers_20260623_171112",
@@ -618,7 +706,8 @@
   "user": 4,
   "trial": "3",
   "object": "slippers",
-  "dur": 71.2
+  "dur": 71.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial13_sunglasses_20260623_173318",
@@ -627,7 +716,8 @@
   "user": 4,
   "trial": "13",
   "object": "sunglasses",
-  "dur": 48.8
+  "dur": 48.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial8_sunglasses_20260623_172053",
@@ -636,7 +726,8 @@
   "user": 4,
   "trial": "8",
   "object": "sunglasses",
-  "dur": 38.8
+  "dur": 38.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial16_tissues_20260623_173807",
@@ -645,7 +736,8 @@
   "user": 4,
   "trial": "16",
   "object": "tissues",
-  "dur": 55.8
+  "dur": 55.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user4_trial2_tissues_20260623_170726",
@@ -654,7 +746,8 @@
   "user": 4,
   "trial": "2",
   "object": "tissues",
-  "dur": 103.8
+  "dur": 103.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial10_bag_20260626_151719",
@@ -663,7 +756,8 @@
   "user": 5,
   "trial": "10",
   "object": "bag",
-  "dur": 72.6
+  "dur": 72.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial5_bag_20260626_150206",
@@ -672,7 +766,8 @@
   "user": 5,
   "trial": "5",
   "object": "bag",
-  "dur": 99.4
+  "dur": 99.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial17_bottle_20260626_153027",
@@ -681,7 +776,8 @@
   "user": 5,
   "trial": "17",
   "object": "bottle",
-  "dur": 76.0
+  "dur": 76.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial3_bottle_20260626_145600",
@@ -690,7 +786,8 @@
   "user": 5,
   "trial": "3",
   "object": "bottle",
-  "dur": 152.2
+  "dur": 152.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial13_cap_20260626_152223",
@@ -699,7 +796,8 @@
   "user": 5,
   "trial": "13",
   "object": "cap",
-  "dur": 49.2
+  "dur": 49.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial8_cap_20260626_150842",
@@ -708,7 +806,8 @@
   "user": 5,
   "trial": "8",
   "object": "cap",
-  "dur": 95.2
+  "dur": 95.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial11_card_20260626_151914",
@@ -717,7 +816,8 @@
   "user": 5,
   "trial": "11",
   "object": "card",
-  "dur": 40.8
+  "dur": 40.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial6_card_20260626_150451",
@@ -726,7 +826,8 @@
   "user": 5,
   "trial": "6",
   "object": "card",
-  "dur": 66.8
+  "dur": 66.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial18_charger_20260626_153242",
@@ -735,7 +836,8 @@
   "user": 5,
   "trial": "18",
   "object": "charger",
-  "dur": 62.2
+  "dur": 62.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial4_charger_20260626_145944",
@@ -744,7 +846,8 @@
   "user": 5,
   "trial": "4",
   "object": "charger",
-  "dur": 106.8
+  "dur": 106.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial14_cup_20260626_152436",
@@ -753,7 +856,8 @@
   "user": 5,
   "trial": "14",
   "object": "cup",
-  "dur": 64.8
+  "dur": 64.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial9_cup_20260626_151057",
@@ -762,7 +866,8 @@
   "user": 5,
   "trial": "9",
   "object": "cup",
-  "dur": 96.4
+  "dur": 96.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial16_slippers_20260626_152841",
@@ -771,7 +876,8 @@
   "user": 5,
   "trial": "16",
   "object": "slippers",
-  "dur": 56.0
+  "dur": 56.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial2_slippers_20260626_145203",
@@ -780,7 +886,8 @@
   "user": 5,
   "trial": "2",
   "object": "slippers",
-  "dur": 53.8
+  "dur": 53.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial12_sunglasses_20260626_152027",
@@ -789,7 +896,8 @@
   "user": 5,
   "trial": "12",
   "object": "sunglasses",
-  "dur": 87.4
+  "dur": 87.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial7_sunglasses_20260626_150628",
@@ -798,7 +906,8 @@
   "user": 5,
   "trial": "7",
   "object": "sunglasses",
-  "dur": 81.4
+  "dur": 81.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial15_tissues_20260626_152623",
@@ -807,7 +916,8 @@
   "user": 5,
   "trial": "15",
   "object": "tissues",
-  "dur": 96.8
+  "dur": 96.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user5_trial1_tissues_20260626_144922",
@@ -816,7 +926,8 @@
   "user": 5,
   "trial": "1",
   "object": "tissues",
-  "dur": 95.2
+  "dur": 95.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial18_bag_20260701_155320",
@@ -825,7 +936,8 @@
   "user": 6,
   "trial": "18",
   "object": "bag",
-  "dur": 55.2
+  "dur": 55.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial4_bag_20260701_152402",
@@ -834,7 +946,8 @@
   "user": 6,
   "trial": "4",
   "object": "bag",
-  "dur": 55.4
+  "dur": 55.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial16_bottle_20260701_154927",
@@ -843,7 +956,8 @@
   "user": 6,
   "trial": "16",
   "object": "bottle",
-  "dur": 63.8
+  "dur": 63.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial2_bottle_20260701_151909",
@@ -852,7 +966,8 @@
   "user": 6,
   "trial": "2",
   "object": "bottle",
-  "dur": 90.2
+  "dur": 90.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial12_cap_20260701_154258",
@@ -861,7 +976,8 @@
   "user": 6,
   "trial": "12",
   "object": "cap",
-  "dur": 57.2
+  "dur": 57.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial7_cap_20260701_153024",
@@ -870,7 +986,8 @@
   "user": 6,
   "trial": "7",
   "object": "cap",
-  "dur": 41.0
+  "dur": 41.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial10_card_20260701_154000",
@@ -879,7 +996,8 @@
   "user": 6,
   "trial": "10",
   "object": "card",
-  "dur": 46.0
+  "dur": 46.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial5_card_20260701_152610",
@@ -888,7 +1006,8 @@
   "user": 6,
   "trial": "5",
   "object": "card",
-  "dur": 91.2
+  "dur": 91.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial17_charger_20260701_155109",
@@ -897,7 +1016,8 @@
   "user": 6,
   "trial": "17",
   "object": "charger",
-  "dur": 66.8
+  "dur": 66.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial3_charger_20260701_152133",
@@ -906,7 +1026,8 @@
   "user": 6,
   "trial": "3",
   "object": "charger",
-  "dur": 90.6
+  "dur": 90.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial13_cup_20260701_154448",
@@ -915,7 +1036,8 @@
   "user": 6,
   "trial": "13",
   "object": "cup",
-  "dur": 48.4
+  "dur": 48.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial8_cup_20260701_153217",
@@ -924,7 +1046,8 @@
   "user": 6,
   "trial": "8",
   "object": "cup",
-  "dur": 84.0
+  "dur": 84.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial15_slippers_20260701_154802",
@@ -933,7 +1056,8 @@
   "user": 6,
   "trial": "15",
   "object": "slippers",
-  "dur": 49.0
+  "dur": 49.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial1_slippers_20260701_151437",
@@ -942,7 +1066,8 @@
   "user": 6,
   "trial": "1",
   "object": "slippers",
-  "dur": 49.0
+  "dur": 49.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial1_slippers_20260701_151657",
@@ -951,7 +1076,8 @@
   "user": 6,
   "trial": "1",
   "object": "slippers",
-  "dur": 84.0
+  "dur": 84.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial11_sunglasses_20260701_154116",
@@ -960,7 +1086,8 @@
   "user": 6,
   "trial": "11",
   "object": "sunglasses",
-  "dur": 54.8
+  "dur": 54.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial6_sunglasses_20260701_152906",
@@ -969,7 +1096,8 @@
   "user": 6,
   "trial": "6",
   "object": "sunglasses",
-  "dur": 43.0
+  "dur": 43.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial14_tissues_20260701_154642",
@@ -978,7 +1106,8 @@
   "user": 6,
   "trial": "14",
   "object": "tissues",
-  "dur": 45.8
+  "dur": 45.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user6_trial9_tissues_20260701_153425",
@@ -987,7 +1116,8 @@
   "user": 6,
   "trial": "9",
   "object": "tissues",
-  "dur": 57.6
+  "dur": 57.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial17_bag_20260629_154903",
@@ -996,7 +1126,8 @@
   "user": 7,
   "trial": "17",
   "object": "bag",
-  "dur": 74.8
+  "dur": 74.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial3_bag_20260629_152137",
@@ -1005,7 +1136,8 @@
   "user": 7,
   "trial": "3",
   "object": "bag",
-  "dur": 61.0
+  "dur": 61.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial15_bottle_20260629_154537",
@@ -1014,7 +1146,8 @@
   "user": 7,
   "trial": "15",
   "object": "bottle",
-  "dur": 72.4
+  "dur": 72.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial1_bottle_20260629_151829",
@@ -1023,7 +1156,8 @@
   "user": 7,
   "trial": "1",
   "object": "bottle",
-  "dur": 49.6
+  "dur": 49.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial11_cap_20260629_153547",
@@ -1032,7 +1166,8 @@
   "user": 7,
   "trial": "11",
   "object": "cap",
-  "dur": 39.0
+  "dur": 39.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial6_cap_20260629_152752",
@@ -1041,7 +1176,8 @@
   "user": 7,
   "trial": "6",
   "object": "cap",
-  "dur": 60.8
+  "dur": 60.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial18_card_20260629_155106",
@@ -1050,7 +1186,8 @@
   "user": 7,
   "trial": "18",
   "object": "card",
-  "dur": 54.6
+  "dur": 54.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial4_card_20260629_152324",
@@ -1059,7 +1196,8 @@
   "user": 7,
   "trial": "4",
   "object": "card",
-  "dur": 53.2
+  "dur": 53.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial16_charger_20260629_154729",
@@ -1068,7 +1206,8 @@
   "user": 7,
   "trial": "16",
   "object": "charger",
-  "dur": 51.8
+  "dur": 51.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial2_charger_20260629_151959",
@@ -1077,7 +1216,8 @@
   "user": 7,
   "trial": "2",
   "object": "charger",
-  "dur": 50.4
+  "dur": 50.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial12_cup_20260629_153721",
@@ -1086,7 +1226,8 @@
   "user": 7,
   "trial": "12",
   "object": "cup",
-  "dur": 48.8
+  "dur": 48.8,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial7_cup_20260629_153025",
@@ -1095,7 +1236,8 @@
   "user": 7,
   "trial": "7",
   "object": "cup",
-  "dur": 53.0
+  "dur": 53.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial14_slippers_20260629_154105",
@@ -1104,7 +1246,8 @@
   "user": 7,
   "trial": "14",
   "object": "slippers",
-  "dur": 47.2
+  "dur": 47.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial9_slippers_20260629_153254",
@@ -1113,7 +1256,8 @@
   "user": 7,
   "trial": "9",
   "object": "slippers",
-  "dur": 46.0
+  "dur": 46.0,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial10_sunglasses_20260629_153425",
@@ -1122,7 +1266,8 @@
   "user": 7,
   "trial": "10",
   "object": "sunglasses",
-  "dur": 34.6
+  "dur": 34.6,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial5_sunglasses_20260629_152606",
@@ -1131,7 +1276,8 @@
   "user": 7,
   "trial": "5",
   "object": "sunglasses",
-  "dur": 61.2
+  "dur": 61.2,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial13_tissues_20260629_153844",
@@ -1140,7 +1286,8 @@
   "user": 7,
   "trial": "13",
   "object": "tissues",
-  "dur": 54.4
+  "dur": 54.4,
+  "mode": "2d"
  },
  {
   "name": "replay_user7_trial8_tissues_20260629_153157",
@@ -1149,6 +1296,7 @@
   "user": 7,
   "trial": "8",
   "object": "tissues",
-  "dur": 30.6
+  "dur": 30.6,
+  "mode": "2d"
  }
 ]

@@ -10,7 +10,8 @@
 <header>
   <h1>Replay ギャラリー</h1>
   <p class="sub">記録した実トライアルの再生に、学習済み Normalizing Flow の
-  <b>短ホライズン予測扇</b>を重ねたもの。実発話（音声）つき。</p>
+  <b>短ホライズン予測扇</b>を重ねたもの。実発話（音声）つき。
+  <b>3D＋高さ</b>版は、上から見た軌跡に加えて<b>頭の高さ（しゃがみ・見下ろし）</b>の予測も表示します。</p>
   <ul class="legend">
     <li><span class="sw coral"></span>実軌跡</li>
     <li><span class="sw blue"></span>モデル予測（次1.5秒）</li>
@@ -20,6 +21,7 @@
 </header>
 
 <nav class="filters">
+  <div class="frow"><span class="flabel">表示</span><div id="mode-filter" class="chips"></div></div>
   <div class="frow"><span class="flabel">ユーザ</span><div id="user-filter" class="chips"></div></div>
   <div class="frow"><span class="flabel">対象物</span><div id="object-filter" class="chips"></div></div>
   <div class="count" id="count"></div>
@@ -29,7 +31,10 @@
 
 <footer>
   <p>コーラル＝実測 / 青＝Flow の予測分布（帯が実測を含み続けるかで“当たり”を確認）。
-  全 128 トライアル・モデル予測扇つき。<a href="../">← 解説ページに戻る</a></p>
+  全 128 トライアル（2D）＋ <b>3D＋高さ</b> 2 本。モデル予測扇つき。<a href="../">← 解説ページに戻る</a></p>
+  <p><b>3D＋高さモデル（scheduled-sampling で安定化・全7-fold LOUO）</b>：水平 ADE 1.48±0.33m（2D同等）、
+  3D-ADE 1.60±0.32m、z-MAE 0.39±0.20m（素の5次元は 3D-ADE 3.2 と発散 → 安定化）。
+  数値: <a href="../metrics3d.json">metrics3d.json</a>。</p>
   <p class="privacy">個別トライアルの再生動画です（研究公開について参加者の同意のもと掲載）。</p>
 </footer>
 
